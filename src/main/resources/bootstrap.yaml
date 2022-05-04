@@ -1,0 +1,8 @@
+#server.port=8001 // esto ya no es necesario. esta especificado en otro lado el puerto.
+spring:
+  application:
+    name: usuario-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8001
